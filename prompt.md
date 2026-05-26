@@ -95,16 +95,15 @@ The portfolio must include:
 
 The website must be:
 
-- Fully responsive
+- Fully responsive- Layout adapts automatically to all screen sizes.
 - Optimized for:
-  - Mobile
-  - Tablet
-  - Desktop
+  - Mobile- UI should function properly on smartphones.
+  - Tablet- Content spacing and scaling should suit tablets.
+  - Desktop - Large-screen layouts should remain visually balanced.
 - Accessible using:
-  - Semantic HTML
-  - ARIA labels
-  - Keyboard navigation support
-- Performance optimized
+  - Semantic HTML - Proper HTML structure improves accessibility and SEO.
+  - Keyboard navigation support - Users should navigate without a mouse.
+- Performance optimized - Site should remain lightweight and fast.
 
 ---
 
@@ -179,15 +178,14 @@ Use:
 
 Sanitize all user inputs to prevent:
 
-- XSS attacks
-- Injection attacks
-- Spam submissions
-
+- XSS attacks-Removes malicious code from user inputs.
+- Injection attacks - Prevents malicious database or server commands.
+- Spam submissions - Reduces fake or automated submissions.
 Implement:
 
-- Input sanitization
-- Rate limiting or CAPTCHA
-- Proper validation
+- Input sanitization - Removes malicious code from user inputs.
+- Rate limiting or CAPTCHA - Restricts repeated requests from users.
+- Proper validation - Ensures all incoming data is safe and correctly formatted.
 
 ---
 
@@ -217,20 +215,20 @@ Implement:
 
 ## Frontend
 
-- React or Next.js
-- Framer Motion
-- Tailwind CSS
+- React or Next.js-JavaScript library for building UI components.
+- Framer Motion-Animation library for React applications.
+- Tailwind CSS-Utility-first CSS framework for fast UI development.
 
 ## Backend
 
 - Node.js + Express OR Next.js API Routes
-- Nodemailer
-- dotenv
+- Nodemailer-Library for sending emails from Node.js applications.
+- dotenv-Loads environment variables securely from .env files.
 
 ## Optional Database
 
-- MongoDB
-- PostgreSQL
+- MongoDB- NoSQL database for flexible document storage.
+- PostgreSQL- Relational SQL database for structured data storage.
 
 ---
 
@@ -238,12 +236,12 @@ Implement:
 
 Optimize the application for:
 
-- Fast loading
-- Smooth animations
-- Bundle size reduction
-- Lazy loading
-- SEO optimization
-- Accessibility compliance
+- Fast loading- Website should render quickly.
+- Smooth animations- Motion effects should not lag or stutter.
+- Bundle size reduction- Minimize unnecessary JavaScript and assets.
+- Lazy loading- Load components or images only when needed.
+- SEO optimization- Improve visibility on search engines.
+- Accessibility compliance- Ensure usability for all users including disabled users.
 
 ---
 
@@ -251,11 +249,11 @@ Optimize the application for:
 
 The final project should include:
 
-- Smooth animated storytelling experience
-- Responsive portfolio UI
-- Functional animated contact modal
-- Secure backend integration
-- Email notification system
-- Graceful error handling
-- Deployment-ready architecture
-- Documentation for setup and environment variables
+- Smooth animated storytelling experience-Website should feel immersive and cinematic.
+- Responsive portfolio UI-Interface should adapt cleanly to all devices.
+- Functional animated contact modal-Popup form must work completely.
+- Secure backend integration-APIs should safely process user data.
+- Email notification system-Owner receives submission alerts automatically.
+- Graceful error handling-Errors should be managed without breaking UX.
+- Deployment-ready architecture-Project should be structured for real hosting environments.
+- Documentation for setup and environment variables-Setup instructions should explain secure credential configuration.
